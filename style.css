@@ -1,0 +1,83 @@
+h1 {
+  color: rgb(0, 0, 0);
+}
+
+li {
+  color: rgb(51, 51, 51);
+}
+
+body {
+  background-color: gray(180, 171, 171);
+}
+
+table {
+  border-collapse: collapse;
+  width: 30%; /* Set the initial width, will be adjusted by the image width */
+  margin: 20px auto;
+}
+
+th,
+td {
+  border: 1px solid #1e00ff;
+  text-align: left;
+  padding: 20px;
+}
+
+th {
+  background-color: #0053f9;
+}
+
+#img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* To remove extra spacing below the image */
+  margin: 0 auto; /* Center the image within its container */
+}
+#hi {
+  background-color: #989595;
+}
+#bye {
+  background-color: rgb(162, 162, 165);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+#edward{border: #111;
+width: 20%;}
+
+#buyit{
+  align-items: center;
+}
